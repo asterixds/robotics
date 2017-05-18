@@ -1,3 +1,4 @@
+
 def move(p, U,p_move,world):
     q = [[0 for row in range(len(world[0]))] for col in range(len(world))]
     p_stay = 1. - p_move
